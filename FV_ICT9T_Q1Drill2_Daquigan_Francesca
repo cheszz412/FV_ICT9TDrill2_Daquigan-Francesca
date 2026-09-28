@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill 2</title>
+    <style>
+        body{
+            background-color: rgb(209, 232, 252);
+            margin: 0;
+            min-height: auto;
+            font-family: Georgia;
+        }
+        section{
+            display: block;
+            margin: auto;
+            width: 600px;
+            height: auto;
+            background-color: hotpink;
+            box-shadow: 0px 3px 10px rgb(186, 2, 153);
+            padding: 15px;
+        }
+        header{
+            text-align: center;
+        }
+        img{
+            height: 300px;
+            width: 300px;
+        }
+        select, input[type="submit"], textarea{
+            width: 100%;
+            border-radius: 5px;  
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rate a Movie</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR50mbUN-kj_EkFOTZPAG6pPzx6OIAcl7rUKLfIh-DvGJ5ERVEwNugWlN9C&s=10" alt="movie logo">
+            <p>Review a Few of the Most Popular Teen Favorite Movies</p>
+    </header>
+    <br>
+    
+    <section>
+        <form action="">
+            <label for="movie">Select a Movie</label>
+            <select id="movie" name="">
+                <option value="movie1">Legally Blonde</option>
+                <option value="movie2">The Notebook</option>
+                <option value="movie3">She's The Man</option>
+                <option value="movie4">Clueless</option>
+            </select>
+            <br><br>
+
+            <label for="Genre">Genre/s</label>
+            <br>
+            <input type="checkbox" id="Genre1" name="genre" value="genre1">
+            <label for="Genre1">Romance</label>
+            <input type="checkbox" id="Genre2" name="genre" value="genre2">
+            <label for="Genre2">Comedy</label>
+             <input type="checkbox" id="Genre3" name="genre" value="genre3">
+            <label for="Genre3">Drama</label>
+             <input type="checkbox" id="Genre4" name="genre" value="genre4">
+            <label for="Genre4">Coming-of-age</label>
+            <input type="checkbox" id="Genre5" name="genre" value="genre5">
+            <label for="Genre5">Other</label>
+
+            <br><br>
+            <label for="rating">Rating</label>
+            <br>
+            <input type="radio" id="rate1" name="rating" value="rate1">
+             <label for="rate1">⭐️</label>
+             <input type="radio" id="rate2" name="rating" value="rate2">
+             <label for="rate2">⭐️⭐️</label>
+             <input type="radio" id="rate3" name="rating" value="rate3">
+             <label for="rate3">⭐️⭐️⭐️</label>
+             <input type="radio" id="rate4" name="rating" value="rate4">
+             <label for="rate4">⭐️⭐️⭐️⭐️</label>
+             <input type="radio" id="rate5" name="rating" value="rate5">
+             <label for="rate5">⭐️⭐️⭐️⭐️⭐️</label>
+            <br><br>
+
+            <textarea id="review" name="review" cols="40" rows="4" placeholder="Write your review here..."></textarea>
+
+            <br><br>
+
+            <input type="submit" id="submit" name="submit" value="Submit a Review">
+            <br>
+            For more review tips, click <a href="https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/" target="_blank">here.</a>
+        </form>
+    </section>        
+</body>
+</html>
